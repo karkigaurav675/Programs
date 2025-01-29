@@ -1,2 +1,0 @@
-This is a test bug fix file.
-Example of another bug fix.
