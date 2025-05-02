@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Noto Sans, Helvetica, sans-serif;
+  height: 100%;
+}
+
+.container {
+  background-image: url(img/image.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #00000066;
+  background-blend-mode: darken;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.card img {
+  align-items: center;
+  width: 300px;
+  height: 370px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h1 {
+  color: #0084ff;
+  text-shadow: 0 4px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  margin-top: -10px;
+}
+
+i.fa-credit-card {
+  padding-right: 30px;
+  transition: color 0.3s ease;
+}
+
+i.fa-cart-plus {
+  padding-left: 30px;
+  transition: color 0.3s ease;
+}
+
+i.fa-credit-card:hover {
+  color: #0084ff;
+  cursor: pointer;
+}
+
+i.fa-cart-plus:hover {
+  color: #0084ff;
+  cursor: pointer;
+}
