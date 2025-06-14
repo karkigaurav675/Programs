@@ -14,10 +14,8 @@
 // const expression5 = !expression4;
 // console.log(expression5);
 
-
 // const expression = !(((100 % 50) < 100 / 50 && 300 + 5 === 305));
 // console.log(expression)
-
 
 // const myObj = {
 //     prop1: 'first value',
@@ -30,17 +28,19 @@
 // console.log(result);
 
 const myObj = {
-    nestedObject1: {
-        price: 100,
-        quantity: 5
-    },
-    nestedObject2: {
-        price: 150,
-        quantity: 2
-    }
+  nestedObject1: {
+    price: 100,
+    quantity: 5,
+  },
+  nestedObject2: {
+    price: 150,
+    quantity: 2,
+  },
 };
 
 const myArray = [myObj.nestedObject1, myObj.nestedObject2];
 
-const result = (myArray[0].price * myArray[0].quantity) > (myArray[1].price * myArray[1].quantity);
+const result =
+  myArray[0].price * myArray[0].quantity >
+  myArray[1].price * myArray[1].quantity;
 console.log(result);

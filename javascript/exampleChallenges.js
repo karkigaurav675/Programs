@@ -10,16 +10,15 @@
 // 9. Print the 'sumProperty' of 'myObject' to the console.
 // 10. Print the value at index 1 of 'firstProperty.'
 
-
 const myBoolean = true;
-const myString = 'hello world';
+const myString = "hello world";
 const firstNumber = 20;
 let secondNumber = 40;
 secondNumber = 80;
 // console.log(secondNumber);
 const myArray = [myBoolean, myString];
 // console.log(myArray);
-myObject = {firstProperty: myArray, sumProperty: firstNumber + secondNumber};
+myObject = { firstProperty: myArray, sumProperty: firstNumber + secondNumber };
 console.log(myObject);
 console.log(myObject.sumProperty);
 console.log(myObject.firstProperty[1]);
