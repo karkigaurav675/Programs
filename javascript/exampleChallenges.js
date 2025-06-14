@@ -9,6 +9,26 @@
 // 8. Print 'myObject' to the console.
 // 9. Print the 'sumProperty' of 'myObject' to the console.
 // 10. Print the value at index 1 of 'firstProperty.'
+
+/*
+    11. Why is this code invalid? Edit this until it is valid.
+
+    const objectVariable = {
+        property1: 'i am property 1';
+        property2: 'i am property 2';
+        property3: [20,30,40];
+    }
+    
+    conosle.log(objectVariable.property3[2]);
+*/
+
+/*
+    12. Why does this code not work? Edit until it works.
+
+    const myArray1 = [20,30,40];
+    console.log(myArray1[3]);
+*/
+
 const myBoolean = true;
 const myString = "hello world";
 const firstNumber = 20;
@@ -27,3 +47,14 @@ console.log(myObject);
 console.log(myObject.sumProperty);
 
 console.log(myObject.firstProperty[1]);
+
+const objectVariable = {
+  property1: "i am property 1",
+  property2: "i am property 2",
+  property3: [20, 30, 40],
+};
+
+console.log(objectVariable.property3[2]);
+
+const myArray1 = [20, 30, 40];
+console.log(myArray1[2]);
